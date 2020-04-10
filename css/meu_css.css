@@ -7,10 +7,21 @@
 
 body{
     height: 100vh;
-    display: flex;
+    display: block;
     background: #060AB2
 }
 
+
+.pontos{
+    margin: auto;
+    font-size: 30px;
+    display: block;
+    width: 200px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
 
 .memory-game{
     width:640px;
