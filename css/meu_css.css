@@ -10,19 +10,32 @@ body{
     background: #060AB2
 }
 
-img{
-    width: 100px;
-}
 
 .memory-game{
-    border: 2px solid aqua;
+    width:640px;
+    height: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid lime;
 }
 
 .memory-card{
+    width: 25%;
+    height: 33.333%;
+    position: relative;
     border: 2px solid aqua;
 }
 
 .front-face,
 .back-face{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
     border: 2px solid deeppink;
+}
+
+img{
+    width: 500px;
+    height: 400px;
 }
